@@ -235,7 +235,7 @@ main p+p{margin-top:14px}
 
 /* footer */
 .site-footer{background:#fff;border-top:1px solid var(--line);font-size:14.5px}
-.footgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px;padding-top:48px;padding-bottom:36px}
+.footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:32px;padding-top:48px;padding-bottom:36px}
 .foot-logo{display:block;line-height:0;margin-bottom:14px}
 .foot-logo img{width:190px;height:46px}
 .nap{font-style:normal;line-height:1.75;color:var(--ink)}
@@ -319,3 +319,10 @@ body{font-size:16.5px}
 
 .photo-fig{margin:0 0 28px}
 .photo-fig img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 6px 22px rgba(16,28,48,.14)}
+
+.grp-h{margin:38px 0 2px}.grp-h:first-child{margin-top:0}.grp-lead{color:var(--muted);margin:0 0 2px}
+.find{border-top:1px solid var(--line,#dfe5ee)}.find-lede{max-width:760px;margin:10px 0 0}
+.findgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:22px}
+.findcol{background:#f5f8fc;border:1px solid #dfe5ee;border-radius:10px;padding:18px 20px}.findcol h3{margin:0 0 10px;font-size:1.05rem}.findcol ul{list-style:none;margin:0;padding:0}.findcol li{margin:0 0 7px}.findcol a{overflow-wrap:anywhere}
+@media(max-width:900px){.findgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.findgrid{grid-template-columns:1fr}}
